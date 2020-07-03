@@ -9,3 +9,7 @@ Make a simple structure of WEB PAGE, adding CRUD module of reservation.
 2020/07/03
 To MAKE FOOD RESERVATION LIST, ADD EVENT MODULE BUT, THIS IS NOT WORKING FOR MY PURPOSE.
 NODE.JS EXPRESS MODULE WOULD BE NEEDED...
+
+Make another box for saving ordered foods in other table, food2,
+and we will send the data from food2 with reservNo to table food.
+Food2 data will be deleted when the data sended to table, food.
