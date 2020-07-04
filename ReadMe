@@ -6,10 +6,16 @@ TUTORIAL FOR FAMILIAR WITH MySQL DB, Node.js LOCALHOSTING.
 Start project.
 Make a simple structure of WEB PAGE, adding CRUD module of reservation.
 
-2020/07/03
+2020/07/03 Fri
 To MAKE FOOD RESERVATION LIST, ADD EVENT MODULE BUT, THIS IS NOT WORKING FOR MY PURPOSE.
 NODE.JS EXPRESS MODULE WOULD BE NEEDED...
 
 Make another box for saving ordered foods in other table, food2,
 and we will send the data from food2 with reservNo to table food.
 Food2 data will be deleted when the data sended to table, food.
+
+2020/07/04 Sat
+NOW, WE CAN ORDER FOOD WEHN RESERVATION WAS FINISIHED.
+When reservation data posted, customer can send food data to DB with posted reservation data.
+Both, food and reservation data are saved in DB with same reservation.No.
+Anyone want to check reserved foods menu can verify who had ordered foods with reservation using reservation.No.
