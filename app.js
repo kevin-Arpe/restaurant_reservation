@@ -22,8 +22,11 @@ const app = http.createServer((request, response) => {
     else if (pathname === '/reserving') {
         topic.reserving(request, response);
     }
-    else if (pathname === '/submit_food') {
-        topic.submit_food(request, response);
+    else if (pathname === '/add_food') {
+        topic.add_food(request, response);
+    }
+    else if (pathname === '/reserving_process') {
+        topic.reserving_process(request, response);
     }
 });
 
