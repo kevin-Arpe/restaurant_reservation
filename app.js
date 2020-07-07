@@ -28,6 +28,12 @@ const app = http.createServer((request, response) => {
     else if (pathname === '/reserving_process') {
         topic.reserving_process(request, response);
     }
+    else if (pathname === '/reserved_food') {
+        topic.reserved_food(request, response);
+    }
+    else if (pathname === '/delete_process') {
+        topic.delete_process(request, response);
+    }
 });
 
 app.listen(3000);

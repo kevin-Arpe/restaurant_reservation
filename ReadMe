@@ -19,3 +19,9 @@ NOW, WE CAN ORDER FOOD WEHN RESERVATION WAS FINISIHED.
 When reservation data posted, customer can send food data to DB with posted reservation data.
 Both, food and reservation data are saved in DB with same reservation.No.
 Anyone want to check reserved foods menu can verify who had ordered foods with reservation using reservation.No.
+
+2020/07/07 Tue
+Add delete module for removing data from DB, when customer want to cancel an reservation.
+
+And also, customer can check their menu.
+Just click an reservation No, an pop up box with reserved foods will be show up.
